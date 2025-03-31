@@ -87,3 +87,30 @@ footer {
     font-size: 1rem;
     border-radius: 10px;
 }
+
+/* Estilo para o link transformado em botão com gradiente */
+.meu-botao {
+    display: inline-block;          /* Faz o link se comportar como um botão */
+    background-image: linear-gradient(45deg, #4CAF50, #2C6B2F); /* Gradiente verde */
+    color: white;                   /* Cor do texto branca */
+    padding: 15px 32px;             /* Espaçamento interno */
+    text-align: center;             /* Alinha o texto no centro */
+    text-decoration: none;          /* Remove o sublinhado do link */
+    font-size: 16px;                /* Tamanho da fonte */
+    border-radius: 8px;             /* Bordas arredondadas */
+    transition: background 0.3s;    /* Transição suave para a cor de fundo */
+}
+
+/* Efeito de hover - quando o usuário passa o mouse sobre o botão */
+.meu-botao:hover {
+    background-image: linear-gradient(45deg, #45a049, #3b7a34); /* Gradiente mais escuro ao passar o mouse */
+}
+
+.imgs {
+    width: 200px; /* Define a largura da imagem para 400px */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.imgs-msg {
+    width: 180px; /* Define a largura da imagem para 400px */
+    height: auto; /* Mantém a proporção da imagem */
+}
