@@ -126,7 +126,21 @@ footer {
 }
 
 .video-container {
-    display: block;        /* Torna o iframe um elemento de bloco */
-    margin-left: auto;     /* Adiciona margem automática à esquerda */
-    margin-right: auto;    /* Adiciona margem automática à direita */
+    display: block;        
+    margin-left: auto;     
+    margin-right: auto;    
+}
+
+/* Responsividade apenas para telas menores (até 768px) */
+@media (max-width: 768px) {
+    .video-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9; /* Mantém a proporção do vídeo */
+    }
 }
