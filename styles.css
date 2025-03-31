@@ -124,3 +124,9 @@ footer {
     width: 180px; /* Define a largura da imagem para 400px */
     height: auto; /* Mantém a proporção da imagem */
 }
+
+.video-container {
+    display: block;        /* Torna o iframe um elemento de bloco */
+    margin-left: auto;     /* Adiciona margem automática à esquerda */
+    margin-right: auto;    /* Adiciona margem automática à direita */
+}
