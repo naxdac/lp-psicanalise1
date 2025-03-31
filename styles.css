@@ -114,3 +114,13 @@ footer {
     width: 180px; /* Define a largura da imagem para 400px */
     height: auto; /* Mantém a proporção da imagem */
 }
+
+.img-logo1 {
+    width: 85px; /* Define a largura da imagem para 400px */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 0.8rem;
+}
+.img-logo1 {
+    width: 180px; /* Define a largura da imagem para 400px */
+    height: auto; /* Mantém a proporção da imagem */
+}
